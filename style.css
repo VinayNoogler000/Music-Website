@@ -1,0 +1,447 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+
+/* --------------------Navigation Bar----------------- */
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: #270082;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: white;
+    box-shadow: 3px 3px 5px black;
+}
+
+.section-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section-links a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* --------------------Hero Section----------------- */
+.hero-section {
+    height: 100vh;
+    background-image: url(Images/hero_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 900px;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 72px;
+}
+
+.hero-text h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+.hero-text p {
+    color: white;
+    line-height: 28px;
+    text-align: center;
+}
+
+button {
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 0;
+}
+
+
+/* -----------------------Music Section-------------------- */
+.music-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trial-container {
+    width: 100%;
+    height: 800px;
+    padding-top: 50px;
+    background-color: #281154;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.trial-container .text-content {
+    color: white;
+}
+
+.trial-container .music-logo-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.trial-container .music-logo-container i {
+    font-size: 40px;
+}
+
+.trial-container .music-logo-container h2 {
+    font-size: 36px;
+}
+
+.trial-container .text-content h3 {
+    font-size: 24px;
+}
+
+.trial-container .text-content .para1 {
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+}
+
+.trial-container .text-content button {
+    background-color: #DC0000;
+}
+
+.trial-container .text-content .para2 {
+    font-size: 14px;
+    color: #ffffffc4;
+}
+
+.music-section .ipad-img {
+    position: relative;
+}
+
+.music-section .read-more-container {
+    padding-top: 400px;
+    padding-bottom: 50px;
+}
+
+.music-section .read-more-container h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.music-section .read-more-container p {
+    line-height: 30px;
+    text-align: center;
+}
+
+.music-section .read-more-container button {
+    background-color: #37008E;
+}
+
+
+/* ------------------------Video Section--------------------- */
+.video-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#bg-video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-text {
+    padding-top: 200px;
+    color: white;
+    text-align: center;
+}
+
+.video-text h3 {
+    font-size: 24px;
+}
+
+.video-text p {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* --------------------Gift Card Section----------------- */
+.gift-card-section {
+    width: 100%;
+    height: 70vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-card-content {
+    max-width: 900px;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gift-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+
+.gift-card-text h3 {
+    font-size: 24px;
+}
+
+.gift-card-text p,
+.gift-card-text a {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+.gift-card-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.gift-card-text .divider {
+    width: 100%;
+    border-top: 1px solid grey;
+}
+
+.gift-card-text button {
+    background-color: #37008E;
+    margin-top: 10px;
+}
+
+
+/* --------------------Footer Section----------------- */
+footer {
+    width: 100%;
+    color: white;
+}
+
+footer .main {
+    height: fit-content;
+    padding: 50px;
+    background-color: #1B0058;
+    display: flex;
+    align-items: center;
+}
+
+footer .main .content {
+    flex-direction: row;
+    gap: 20px;
+}
+
+footer .main .sections {
+    width: 200px;
+}
+
+footer .sections h4 {
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+footer .sections li {
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+footer .copyright-container {
+    background-color: #270082;
+    text-align: center;
+    padding: 15px;
+}
+
+footer .copyright-container p {
+    font-size: 14px;
+}
+
+
+/* ------------------Pseudo-Classes & Transition--------------- */
+nav .name-logo,
+a,
+button {
+    cursor: pointer;
+}
+
+a {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+.gift-card-section a:hover {
+    border-bottom-color: black;
+}
+
+button {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin: 50px;
+}
+
+
+/* ------------------------Responsive Design-------------------- */
+@media (max-width: 1024px) {
+    nav {
+        padding: 10px 50px;
+    }
+
+    img {
+        max-width: 80%;
+    }
+
+    .music-section .read-more-container {
+        padding-top: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 90%;
+    }
+
+    .music-section .trial-container {
+        height: 80vh;
+    }
+
+    .music-section .read-more-container {
+        padding-top: 200px;
+    }
+
+    .gift-card-section {
+        height: 80vh;
+    }
+
+    .gift-card-content {
+        flex-direction: column;
+    }
+
+    .gift-card-text {
+        align-items: center;
+    }
+
+    .gift-card-text p {
+        text-align: center;
+    }
+
+    footer .main {
+        height: 400px;
+        justify-content: center;
+    }
+
+    footer .main .content {
+        height: 300px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        padding: 10px 20px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    nav h2 {
+        font-size: 18px;
+    }
+    nav .section-links {  
+        gap: 10px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    
+    .hero-text {
+        gap: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .para2 {
+        text-align: center;
+    }
+
+    .music-section .read-more-container {
+        padding-top: 150px;
+    }
+
+    .gift-card-section a {
+        text-align: center;
+    }
+
+    .gift-card-section {
+        padding: 50px 0px;
+    }
+
+    .gift-card-content {
+        width: 90%;
+    }
+
+    footer .main, footer .main .content {
+        height: fit-content;
+        align-items: start;
+    }
+
+    section {
+        scroll-margin: 30px;
+    }
+}
