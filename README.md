@@ -40,4 +40,4 @@ I hope you find this project interesting. Feel free to give feedback to help me 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/VinayNoogler000/Music-Website/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/VinayNoogler000/Music-Website/blob/main/LICENSE.txt) file for details.
