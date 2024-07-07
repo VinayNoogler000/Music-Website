@@ -32,7 +32,7 @@ I, **Vinay Tambey**, created a Music website as a practice project using HTML an
 3. Open `index.html` in your preferred web browser to view the webpage.
 
 ## Demo
-
+Checkout the Demo/Overview of the Webpage, here -> [G-Drive Link](https://drive.google.com/file/d/1C-4PIbHNFJzbha3ikNB6q7n3JYz3lCLY/view?usp=sharing).
 
 ## Feeback and Contributions
 
@@ -40,4 +40,4 @@ I hope you find this project interesting. Feel free to give feedback to help me 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/VinayNoogler000/Music-Website/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/VinayNoogler000/Music-Website/blob/main/LICENSE.txt) file for details.
